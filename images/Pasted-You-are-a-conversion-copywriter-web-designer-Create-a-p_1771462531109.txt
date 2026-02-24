@@ -1,0 +1,121 @@
+You are a conversion copywriter + web designer. Create a premium, high-converting sales page (landing page) for a “Portable Handheld Vacuum Cleaner”.
+
+CRITICAL LANGUAGE RULE:
+- All visible page copy MUST be in Brazilian Portuguese (PT-BR).
+- This prompt is in English, but the final page must be in Portuguese.
+
+GOAL:
+Maximize conversions and sales.
+
+CHECKOUT LINKS (use EXACTLY these):
+- 1 unidade (CTA link): https://app.coinzz.com.br/checkout/1-unidade-pagina-de-vendas-0
+- 2 unidades (CTA link): https://app.coinzz.com.br/checkout/2-unidade-pagina-de-vendas-0
+
+PRODUCT:
+Portable handheld vacuum cleaner (aspirador de pó portátil).
+User already has photos and product details; therefore:
+- Include image placeholders with clear IDs/classes so the user can replace with their images.
+- Include a “Product Specs” section with placeholders that the user can edit easily.
+
+COPY FRAMEWORK:
+Use AIDA (Attention, Interest, Desire, Action) with persuasive, benefit-driven copy.
+
+PSYCHOLOGICAL TRIGGERS TO USE:
+- Convenience + time-saving
+- Social proof (testimonials)
+- Authority cues (quality, technology, practicality)
+- Risk reversal (7 or 30-day satisfaction guarantee)
+- Scarcity/urgency (limited stock / limited-time offer) — without making illegal/false claims
+- Clear value stacking (what the buyer gets)
+- Strong CTA repetition throughout page
+
+PAGE STRUCTURE (must include in this order):
+
+1) HERO (Attention)
+- Big, punchy headline in PT-BR about effortless cleaning anywhere (car, sofa, corners).
+- Subheadline reinforcing portability + power + practicality.
+- Two CTA buttons side-by-side:
+  a) “Comprar 1 unidade agora” -> link 1 unidade
+  b) “Levar 2 unidades com melhor custo-benefício” -> link 2 unidades
+- Add trust badges area (placeholder icons): “Compra segura”, “Entrega rápida”, “Garantia”.
+- Main image placeholder (hero image).
+
+2) PAIN/PROBLEM (Interest)
+- Describe common frustrations: sujeira no carro, migalhas no sofá, cantinhos difíceis, falta de tempo.
+- Make it relatable and emotional (but realistic).
+
+3) SOLUTION (Introduce the product)
+- Present aspirador portátil as the practical solution.
+- Use benefit bullets (not just features): “limpa em segundos”, “leve e fácil”, “sem esforço”, “sempre à mão”.
+- Add a short “How it works” (3 steps) section.
+
+4) BENEFITS / TRANSFORMATION (Desire)
+- Show the “after” life: carro impecável, casa com aparência de nova, menos estresse.
+- Include 3 visual cards with icons + short copy (placeholders allowed).
+- Add image placeholders for lifestyle/product-in-use.
+
+5) OFFER / PRICING (Action prep)
+- Create two offer cards:
+  - Card A: 1 unidade (good)
+  - Card B: 2 unidades (highlight as “MAIS VENDIDO” / “Melhor custo-benefício”)
+- Each card must include:
+  - Benefit bullets
+  - A CTA button linking to the correct checkout
+- Add “What you receive” list (value stacking).
+- Add urgency line (e.g., “Condição por tempo limitado” / “estoque sujeito à disponibilidade”).
+
+6) SOCIAL PROOF
+- Include 5 realistic PT-BR testimonials with name + city (fictional but plausible).
+- Add a simple star rating visual (CSS-based).
+
+7) GUARANTEE / RISK REVERSAL
+- Add a section “Garantia de Satisfação” (choose 7 or 30 days) with reassuring copy.
+- Mention “se não gostar, você pode solicitar reembolso conforme as regras do fornecedor” (avoid false promises).
+
+8) FAQ
+- Include at least 6 FAQs:
+  - “Funciona no carro?”
+  - “É recarregável?”
+  - “Serve para cantinhos e estofados?”
+  - “Como limpar o filtro?”
+  - “Qual o prazo de entrega?”
+  - “Como comprar com segurança?”
+- Answers must be persuasive and confidence-building.
+
+9) FINAL CTA (Action)
+- Strong closing headline + short paragraph.
+- Repeat the two CTA buttons (1 unidade and 2 unidades).
+- Add security reassurance text.
+
+DESIGN + TECH REQUIREMENTS:
+- Output a SINGLE HTML file with embedded CSS and JS.
+- Mobile-first, responsive, modern, premium look.
+- Use Google Fonts (e.g., Inter or Poppins).
+- Add subtle animations: fade-in on scroll (IntersectionObserver).
+- Add sticky floating CTA bar on mobile with two buttons (1 unidade and 2 unidades).
+- Add smooth scroll behavior.
+- Add clean sections, spacing, strong contrast, readable typography.
+- Do NOT use external frameworks unless absolutely necessary.
+
+IMAGE PLACEHOLDERS:
+- Use <img> tags with placeholder src and clear IDs:
+  - #img-hero
+  - #img-benefit-1, #img-benefit-2, #img-benefit-3
+  - #img-product-1, #img-product-2
+User will replace them later.
+
+EDITABLE PRODUCT DETAILS:
+Include a clearly marked block (commented) like:
+<!-- EDIT PRODUCT DETAILS HERE -->
+with placeholders for:
+- Power/suction (if unknown, write “(preencher)”)
+- Battery/autonomy (preencher)
+- Charging type (preencher)
+- Weight (preencher)
+- Accessories (preencher)
+
+IMPORTANT:
+- Avoid medical claims and avoid guarantees of “million sales”.
+- Focus on conversion best practices and honest persuasion.
+
+Finally, return ONLY the complete HTML code.
